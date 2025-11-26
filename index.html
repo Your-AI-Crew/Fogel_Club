@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=960, initial-scale=1.0">
+    <title>Your AI Crew × Александр Фогель</title>
+    <style>
+        :root {
+            --color-dark: #172C3E;
+            --color-blue: #00C9FF;
+            --color-title-dark: #212836;
+            --color-text: #233046;
+            --font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+        }
+        body {
+            font-family: var(--font-family);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: var(--color-text);
+        }
+        .slide {
+            width: 960px;
+            height: 540px;
+            margin: 0 auto 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            background: #fff;
+            border-radius: 24px;
+            box-shadow: 0 8px 32px rgba(34,48,70,0.08);
+            padding: 64px;
+            position: relative;
+        }
+        .main-logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+            object-fit: contain;
+        }
+        .title-main {
+            font-size: 3.6rem;
+            color: var(--color-title-dark);
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .subtitle-main {
+            font-size: 1.9rem;
+            color: var(--color-blue);
+            font-weight: bold;
+            margin-bottom: 18px;
+        }
+        .list {
+            font-size: 1.5rem;
+            margin-bottom: 36px;
+            color: var(--color-text);
+        }
+        .section-title {
+            font-size: 2.7rem;
+            font-weight: bold;
+            color: var(--color-title-dark);
+            margin-bottom: 20px;
+        }
+        .infocard {
+            display: flex;
+            align-items: center;
+            background: linear-gradient(90deg, #e3fbff, #a5eaff, #fff 60%);
+            box-shadow: 0 3px 18px rgba(0,201,255,0.07);
+            border-radius: 16px;
+            padding: 26px 38px;
+            margin-bottom: 18px;
+        }
+        .icon {
+            width: 66px;
+            height: 66px;
+            margin-right: 30px;
+        }
+        .infotext {
+            font-size: 1.4rem;
+            color: #233046;
+            font-weight: 500;
+        }
+        .metric-bar {
+            display: flex;
+            justify-content: space-between;
+            margin: 36px 0 20px 0;
+        }
+        .metric {
+            background: #00C9FF;
+            border-radius: 24px;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.5rem;
+            padding: 22px 48px;
+            margin-right: 20px;
+        }
+        .metric:last-child {margin-right:0;}
+        .footer {
+            position: absolute;
+            bottom: 28px;
+            left: 64px;
+            font-size: 1rem;
+            color: #667eea;
+            opacity: 0.7;
+        }
+        @media (max-width: 1000px) {
+            .slide {padding: 30px;}
+            .main-logo {width: 64px; height:64px;}
+            .title-main {font-size: 2.5rem;}
+        }
+    </style>
+</head>
+<body>
+  <!-- Slide 1 (title) -->
+  <section class="slide p-16 col center" style="align-items:center; text-align:center;">
+    <img src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/63d7dfa7-71bd-4ebd-ab4c-d1ac6e6b817b" alt="Your AI Crew Logo" class="main-logo" />
+    <div class="title-main">Your <span style="color:#00C9FF;">AI</span> Crew × Александр Фогель</div>
+    <div class="subtitle-main">AI-ассистенты для лидеров</div>
+    <div class="list" style="margin-bottom:24px;">
+      • Zoom — без рутины, задачи фиксируются автоматически<br>
+      • Напоминания и follow-up уходят в работу, контроль на автомате<br>
+      • Первая экономия времени уже через 14 дней<br>
+      • Дополнительный партнерский доход
+    </div>
+    <div class="footer">Your AI Crew × Фогель-Клуб | 2025</div>
+  </section>
+
+  <!-- Slide 2 (cинергия) -->
+  <section class="slide p-16 col">
+    <div class="section-title">Синергия для руководителя</div>
+    <div class="infocard">
+      <img src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/63d7dfa7-71bd-4ebd-ab4c-d1ac6e6b817b" alt="Your AI Crew Brand" class="icon" />
+      <div class="infotext">
+        Время на стратегию вместо рутины<br>
+        + 6–7 Zoom превращаются в автоматический чек-лист<br>
+        + <span style="color:#00C9FF; font-weight:600;">AI</span>‑ассистент сам шлёт напоминания и фиксирует задачи для команды<br>
+        + <span style="color:#00C9FF; font-weight:600;">AI</span>‑ассистент сам контролирует и готовит резюме<br>
+        + 2 варианта <span style="color:#00C9FF; font-weight:600;">AI</span>-консультантов:<br>
+        &nbsp;&nbsp;1) Внутренняя техподдержка для сотрудников департамента<br>
+        &nbsp;&nbsp;2) Консультант для членов и потенциалов Клуба<br>
+        ⇒ Меньше ручных допингов — больше контроля и расширение услуг
+      </div>
+    </div>
+    <div class="footer">Премьера для управленцев бизнес-клуба</div>
+  </section>
+
+  <!-- Slide 3 (Пилот и выгоды) -->
+  <section class="slide p-16 col">
+    <div class="section-title">Пилот: эффект за 2 недели</div>
+    <div class="infocard">
+      <img src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/63d7dfa7-71bd-4ebd-ab4c-d1ac6e6b817b" alt="Your AI Crew Logo" class="icon" />
+      <div class="infotext">
+        1. Твои Zoom анализирует AI — задачи формируются без ручной работы<br>
+        2. Контроль исполнения и напоминаний<br>
+        3. Отчёт о «выигранном времени» для пиара в Клубе<br>
+        4. Быстрый запуск пилота (2–3 встречи)
+      </div>
+    </div>
+    <div class="metric-bar">
+      <div class="metric">+1 час свободного времени в день</div>
+      <div class="metric">100% автоматизация задач</div>
+      <div class="metric">100% прозрачность результатов</div>
+    </div>
+    <div class="footer">Реальный результат — уже через 2 недели</div>
+  </section>
+
+  <!-- Slide 4 (Внутренний эффект для клуба) -->
+  <section class="slide p-16 col">
+    <div class="section-title">Эффект внутри Клуба</div>
+    <div class="infocard">
+      <img src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/63d7dfa7-71bd-4ebd-ab4c-d1ac6e6b817b" alt="Your AI Crew Logo" class="icon" />
+      <div class="infotext">
+        • Минимум рутины, больше времени на стратегию<br>
+        • Быстрая техподдержка для сотрудников через AI<br>
+        • Первый опыт внедрения AI — маркер инновационности Клуба<br>
+        • Рост доверия членов к управлению через прозрачность
+      </div>
+    </div>
+    <div class="footer">Укрепление позиции клуба как лидера инноваций</div>
+  </section>
+
+  <!-- Slide 5 (Коммерциализация и доход) -->
+  <section class="slide p-16 col">
+    <div class="section-title">Следующий шаг:</div>
+    <div class="subtitle-main">Коммерциализация — доход для Клуба</div>
+    <div class="infocard">
+      <img src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/63d7dfa7-71bd-4ebd-ab4c-d1ac6e6b817b" alt="Your AI Crew Logo" class="icon" />
+      <div class="infotext">
+        • Премиум-пакет <span style="color:#00C9FF;">AI</span>-консультантов для членов Клуба<br>
+        • Платная услуга для других предпринимателей<br>
+        • <span style="color:#00C9FF; font-weight:600;">Новый поток выручки для Клуба</span><br>
+        • Усиление имиджа — Клуб дает членам конкурентное преимущество
+      </div>
+    </div>
+    <div class="footer">Win-win: члены Клуба получают доп результат, Клуб получает доп доход</div>
+  </section>
+
+  <!-- Slide 6 (CTA) -->
+  <section class="slide p-16 col center" style="align-items:center;text-align:center;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%); color:#fff;">
+    <img src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/63d7dfa7-71bd-4ebd-ab4c-d1ac6e6b817b" alt="Your AI Crew Logo" class="main-logo" />
+    <div class="title-main" style="color:#fff;margin-bottom:20px;">Готов к тесту <span style="color:#00C9FF;">AI</span>‑ассистента?</div>
+    <div style="font-size:1.5rem;">
+      Короткий Zoom — и через 2 недели ты освобождаешь время с помощью AI.<br><br>
+      Your <span style="color:#00C9FF;">AI</span> Crew — инструмент для лидеров, кто ценит эффективность.
+    </div>
+    <div style="height:30px;"></div>
+    <div style="display:flex; gap:24px; justify-content:center; margin-bottom:40px;">
+      <a href="https://calendar.app.google/VTFBbGxPBuk1SQ2UA" class="cta-button" style="background-color:#00C9FF; color:#172C3E; text-decoration:none; padding:16px 48px; border-radius:24px; font-weight:bold; font-size:1.3rem; transition:all 0.3s ease;">
+        Забронировать встречу
+      </a>
+      <a href="https://t.me/Yury_Telegramm" class="cta-button" style="background-color:#fff; color:#667eea; text-decoration:none; padding:16px 48px; border-radius:24px; font-weight:bold; font-size:1.3rem; transition:all 0.3s ease;">
+        Telegram
+      </a>
+    </div>
+    <div class="footer" style="color:#cbeeff;">Your AI Crew × Фогель-Клуб | 2025</div>
+  </section>
+</body>
+</html>
